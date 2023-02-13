@@ -1,0 +1,10 @@
+global:
+  scrape_interval:     15s
+
+scrape_configs:
+  - job_name: 'peopleapi-read-prometheus'
+    static_configs:
+    - targets: ['peopleapi:8080']
+  - job_name: 'locationsapi-read-prometheus'
+    static_configs:
+    - targets: ['locationapi:8080']

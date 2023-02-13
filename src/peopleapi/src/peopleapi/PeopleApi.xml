@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PeopleApi</name>
+    </assembly>
+    <members>
+        <member name="T:PeopleApi.Controllers.DebugController">
+            <summary>
+            For debugging purposes only1.
+            </summary>
+        </member>
+        <member name="M:PeopleApi.Controllers.DebugController.Metrics">
+            <summary>
+            Get metrics.
+            </summary>
+        </member>
+        <member name="M:PeopleApi.Controllers.DebugController.Health">
+            <summary>
+            Get health status.
+            </summary>
+        </member>
+        <member name="T:PeopleApi.Controllers.PeopleController">
+            <summary>
+            People operations.
+            </summary>
+        </member>
+        <member name="M:PeopleApi.Controllers.PeopleController.Get">
+            <summary>
+            GET the list of peoples
+            </summary>
+        </member>
+        <member name="M:PeopleApi.Controllers.PeopleController.Get(System.Guid)">
+            <summary>
+            GET people.
+            </summary>
+        </member>
+    </members>
+</doc>

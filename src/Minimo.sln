@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeopleApi", "peopleapi\PeopleApi.csproj", "{8FB446C5-EB20-490C-BC58-02BAA800E591}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocationApi", "locationapi\LocationApi.csproj", "{E2ADCF90-F48A-4821-9BE4-B7396BFD2CDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FB446C5-EB20-490C-BC58-02BAA800E591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FB446C5-EB20-490C-BC58-02BAA800E591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FB446C5-EB20-490C-BC58-02BAA800E591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FB446C5-EB20-490C-BC58-02BAA800E591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2ADCF90-F48A-4821-9BE4-B7396BFD2CDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2ADCF90-F48A-4821-9BE4-B7396BFD2CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2ADCF90-F48A-4821-9BE4-B7396BFD2CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2ADCF90-F48A-4821-9BE4-B7396BFD2CDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1418541-8292-46D7-9C37-EF5655771A98}
+	EndGlobalSection
+EndGlobal
