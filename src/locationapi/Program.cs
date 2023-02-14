@@ -1,3 +1,4 @@
+using Elastic.Apm.AspNetCore;
 using Prometheus;
 using System.Reflection;
 
@@ -30,6 +31,7 @@ app.Use((context, next) =>
 app.UseMetricServer();
 app.UseHttpMetrics();
 app.UseHealthChecks("/health");
+app.UseElasticApm();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

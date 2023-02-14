@@ -12,7 +12,7 @@ services:
       - ASPNETCORE_ENVIRONMENT=Development
       - ASPNETCORE_URLS=http://*:8080
     networks:
-      - dotnetcorepromgrafana
+      - dotnetexample
 
   locationapi:
     build: 
@@ -25,7 +25,7 @@ services:
       - ASPNETCORE_ENVIRONMENT=Development
       - ASPNETCORE_URLS=http://*:8080
     networks:
-      - dotnetcorepromgrafana
+      - dotnetexample
 
   prometheus:
     image: prom/prometheus
@@ -35,7 +35,7 @@ services:
     volumes:
       - ./prometheus.yml:/etc/prometheus/prometheus.yml:ro
     networks:
-      - dotnetcorepromgrafana
+      - dotnetexample
 
   grafana: 
     image: grafana/grafana
@@ -45,7 +45,7 @@ services:
     ports:
       - 3000:3000
     networks:
-      - dotnetcorepromgrafana
+      - dotnetexample
 
 networks:
-  dotnetcorepromgrafana:
+  dotnetexample:
